@@ -1,6 +1,0 @@
-alias exec b show bgp sum
-alias exec c conf t
-alias exec b6 sh bgp ipv6 unicast sum
-alias exec crc sh int | uti egre "up, line protocol is up|CRC" | uti egre "0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort|Unknown CRC" reverse
-alias exec log sh logg last 33
-alias exec sri sh run int 
