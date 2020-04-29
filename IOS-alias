@@ -1,0 +1,11 @@
+alias exec fab sh fabric utilization all
+alias exec fab2 sh platform hardware capacity fabric
+alias exec pc sh etherc su
+alias exec sri sh run int 
+alias exec c conf t
+alias exec sir sh ip route 
+alias exec srb sh run | b 
+alias exec sip sh int port-channel 
+alias exec cc clear counters 
+alias exec b sh ip bgp su
+alias exec b6 sh ip bgp ipv6 unicast 
