@@ -1,3 +1,4 @@
+##IOS
 alias exec fab sh fabric utilization all
 alias exec fab2 sh platform hardware capacity fabric
 alias exec pc sh etherc su
@@ -9,3 +10,11 @@ alias exec sip sh int port-channel
 alias exec cc clear counters 
 alias exec b sh ip bgp su
 alias exec b6 sh ip bgp ipv6 unicast 
+
+##IOS-XR
+alias exec b show bgp sum
+alias exec c conf t
+alias exec b6 sh bgp ipv6 unicast sum
+alias exec crc sh int | uti egre "up, line protocol is up|CRC" | uti egre "0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort|Unknown CRC" reverse
+alias exec log sh logg last 33
+alias exec sri sh run int 
